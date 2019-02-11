@@ -5,7 +5,7 @@ import requests
 import os
 
 
-def scrap_images(image_cnt=10):
+def scrap_images(image_cnt=5):
     search = input("Search for :")
 
     dir_name = search.replace(" ", "_").lower()
